@@ -1,0 +1,15 @@
+{
+  "name": "reillo/media_symlink",
+  "description": "When you're media folder is being symlinked, WYSIWG might not work properly.",
+  "type": "magento-module",
+  "license": "MIT",
+  "keywords": [
+    "magento", "media", "symlink"
+  ],
+  "authors": [
+    {
+      "name": "Regner Atillo",
+      "email": "atilloregner@gmail.com"
+    }
+  ]
+}
