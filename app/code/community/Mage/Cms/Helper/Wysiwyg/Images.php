@@ -230,7 +230,8 @@ class Mage_Cms_Helper_Wysiwyg_Images extends Mage_Core_Helper_Abstract
             }
             $this->_currentPath = $currentPath;
         }
-        return $this->_currentPath;
+
+        return str_replace('//', '/', $this->_currentPath);
     }
 
     /**
